@@ -9,12 +9,12 @@ using namespace std;
 
 int main()
 {
-    int i = 1;
+    int i = 1;//initiailize variable i with 1
 
-    while(i <= 10)
+    while(i <= 10)//loop runs while i is less than or equal to 10
     {
-        cout << i << endl;
-        i++;
+        cout << i << endl;//print value of i
+        i++;//increase i by 1
     }
 
     return 0;

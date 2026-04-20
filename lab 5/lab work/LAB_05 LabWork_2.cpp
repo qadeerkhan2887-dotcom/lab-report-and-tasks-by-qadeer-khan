@@ -9,14 +9,14 @@ using namespace std;
 
 int main()
 {
-    int i = 1;
+    int i = 1;//starts from 1
 
     do
     {
-        cout << i << endl;
-        i++;
+        cout << i << endl;//print i
+        i++;//increase i
     }
-    while(i <= 10);
+    while(i <= 10);//repeat untill i<=10
 
     return 0;
 }

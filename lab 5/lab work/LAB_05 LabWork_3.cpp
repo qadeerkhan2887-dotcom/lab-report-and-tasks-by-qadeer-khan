@@ -7,17 +7,17 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main()//delare variable input number.loop counter ,and some accumulator
 {
     int num, i = 1, sum = 0;
 
-    cout << "Enter a positive integer: ";
+    cout << "Enter a positive integer: ";//pomote user for input
     cin >> num;
 
-    while(i <= num)
+    while(i <= num)//loop from to num,
     {
-        sum = sum + i;
-        i++;
+        sum = sum + i;//add current of i to sum
+        i++;//increment loop counter 
     }
 
     cout << "Sum = " << sum << endl;
